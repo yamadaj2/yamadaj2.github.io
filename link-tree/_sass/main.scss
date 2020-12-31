@@ -1,0 +1,9 @@
+a {
+  color: #2f2a2a !important;
+  text-decoration: none !important;
+  .card {
+    cursor: pointer;
+    transition: box-shadow 500ms;
+    &:hover { box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important }
+  }
+}

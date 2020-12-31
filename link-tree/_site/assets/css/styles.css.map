@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import 'main';",
+		"a {\n  color: #2f2a2a !important;\n  text-decoration: none !important;\n  .card {\n    cursor: pointer;\n    transition: box-shadow 500ms;\n    &:hover { box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important }\n  }\n}"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,CAAC,CAAC,EACA,KAAK,EAAE,kBAAkB,EACzB,eAAe,EAAE,eAAe,GAMjC;;AARD,AAGE,CAHD,CAGC,KAAK,CAAC,EACJ,MAAM,EAAE,OAAO,EACf,UAAU,EAAE,gBAAgB,GAE7B;;AAPH,AAMI,CANH,CAGC,KAAK,CAGD,KAAK,CAAC,EAAE,UAAU,EAAE,CAAC,CAAC,IAAI,CAAC,IAAI,CAAC,oBAAgB,CAAC,UAAU,GAAG"
+}

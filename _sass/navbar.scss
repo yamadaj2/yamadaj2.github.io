@@ -1,0 +1,8 @@
+@import 'colours';
+
+nav {
+  background-color: $theme-purple;
+  .navbar-brand {
+    color: $white;
+  }
+}

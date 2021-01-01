@@ -1,5 +1,7 @@
 html * { font-size: 1em; color: #000; font-family: Poppins; }
 
+.theme-gradient { background-image: linear-gradient(to bottom, #fff, #6c22a5); }
+
 a { color: #2f2a2a !important; text-decoration: none !important; }
 
 a .card { cursor: pointer; transition: box-shadow 500ms; }

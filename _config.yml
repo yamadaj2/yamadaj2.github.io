@@ -1,7 +1,2 @@
 plugins:
   - jekyll-seo-tag
-
-jekyll_analytics:
-  GoogleAnalytics:
-    id: G-Q942Z2NDF0
-    anonymizeIp: false

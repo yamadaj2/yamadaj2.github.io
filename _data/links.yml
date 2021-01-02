@@ -1,27 +1,34 @@
-- text: Shop Sheet Music Store (Coming Soon)
+- text: Browse Sheet Music Store (Coming Soon)
   icon: 'shopping-bag'
+  id: 'shop'
   url: '#'
 
 - text: Subscribe on YouTube
   icon: 'youtube'
+  id: 'subscribe'
   url: 'https://www.youtube.com/channel/UCAiArHrQ_ypBh5ygHZWkyUA?sub_confirmation=1'
 
 - text: Beginners' Piano Tutorials Playlist
   icon: 'youtube-play'
+  id: 'beginner-tutorial'
   url: 'https://www.youtube.com/watch?v=Z_YC1Tg7jEk&list=PLyIIc5UqqRR5NV5_Ed0llCMilhcskuWo7&ab_channel=JYmakesMusic'
 
 - text: Piano Tutorials Playlist
   icon: 'youtube-play'
+  id: 'intermediate-tutorial'
   url: 'https://www.youtube.com/watch?v=kpRnGghHVjY&list=PLyIIc5UqqRR4t5yw70dPzbK9060AlOfNu&ab_channel=JYmakesMusic'
 
 - text: Relaxing Piano Playlist
   icon: 'music'
+  id: 'relaxing-playlist'
   url: 'https://www.youtube.com/watch?v=0kiMtVdwSD8&list=PLyIIc5UqqRR7-_rBYk467mT7V1FcbLSeo&ab_channel=JYmakesMusic'
 
 - text: Listen on Soundcloud
   icon: 'soundcloud'
+  id: 'soundcloud'
   url: 'https://soundcloud.com/yamadaj2/comptine-dune-autre-ete'
 
 - text: Buy me a Coffee?
   icon: 'coffee'
+  id: 'donation'
   url: 'https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=3F3C24AGF7CFU&currency_code=EUR'

@@ -9,7 +9,7 @@ layout: default
     <div class='col-12 col-sm-9 col-lg-7 mx-auto'>
       <div class='row'>
       {% for link in site.data.links %}
-      <a href={{link.url}} class='link-container col-12 col-sm-6 my-2 text-center' target='_blank'>
+      <a id={{link.id}} href={{link.url}} class='link-container col-12 col-sm-6 my-2 text-center' target='_blank'>
         <div class='card py-5'>
           <i class='fa fa-{{link.icon}} mb-2'></i>
           <div class='text'>{{link.text}}</div>

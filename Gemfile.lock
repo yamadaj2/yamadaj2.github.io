@@ -58,7 +58,8 @@ GEM
       rouge (~> 3.0)
       safe_yaml (~> 1.0)
       terminal-table (~> 2.0)
-    jekyll-analytics (0.1.14)
+    jekyll-environment-variables (1.0.1)
+      jekyll (>= 3.0, < 5.x)
     jekyll-sass-converter (2.1.0)
       sassc (> 2.0.1, < 3.0)
     jekyll-seo-tag (2.7.1)
@@ -138,7 +139,7 @@ PLATFORMS
 DEPENDENCIES
   bootstrap
   jekyll
-  jekyll-analytics
+  jekyll-environment-variables
   jekyll-seo-tag
 
 BUNDLED WITH

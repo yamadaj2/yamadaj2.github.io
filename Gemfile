@@ -4,5 +4,6 @@ gem 'jekyll'
 gem 'bootstrap'
 
 group :jekyll_plugins do
+  gem 'jekyll-environment-variables'
   gem 'jekyll-seo-tag'
 end

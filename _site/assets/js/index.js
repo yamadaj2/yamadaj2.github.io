@@ -13,7 +13,7 @@
             analytics: {
               click_type: link?.id,
               is_mobile: window?.navigator?.userAgentData?.mobile,
-              referrer: document.referrer
+              referrer: document.referrer,
             }
           }),
         })

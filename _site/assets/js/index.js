@@ -29,7 +29,7 @@
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        analytics: {
+        landing_page_analytic: {
           is_mobile: window?.navigator?.userAgentData?.mobile,
           referrer: document.referrer
         }

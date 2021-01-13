@@ -3,7 +3,8 @@
   if (linkContainerItems?.length > 0) {
     for (const link of linkContainerItems) {
       link.addEventListener('click', () => {
-        fetch('http://localhost:3001/analytics', {
+        fetch('https://jy-makes-music-api.herokuapp.com/analytics', {
+        // fetch('http://localhost:3001/analytics', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

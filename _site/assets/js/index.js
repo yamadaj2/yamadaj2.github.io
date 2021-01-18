@@ -1,10 +1,12 @@
 (() => {
+  const endpoint = 'https://jy-makes-music-api.herokuapp.com';
+
   const listenForLinkClick = () => {
     const linkContainerItems = document.getElementsByClassName('link-container');
     if (linkContainerItems?.length > 0) {
       for (const link of linkContainerItems) {
         link.addEventListener('click', () => {
-          fetch('https://jy-makes-music-api.herokuapp.com/analytics', {
+          fetch(`${endpoint}/analytics`, {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
@@ -23,7 +25,7 @@
   }
 
   const listingForProfileLoad = () => {
-    fetch('https://jy-makes-music-api.herokuapp.com/landing_page_analytics', {
+    fetch(`${endpoint}/landing_page_analytics`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

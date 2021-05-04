@@ -45,9 +45,8 @@
       mode : 'no-cors',
     }
 
-    console.log('%c -------------------------','background-color: white; color: black')
     fetch('https://elais-ireland.herokuapp.com', init)
-    fetch('http://elais-ireland.ie', init)
+    fetch('https://elais-ireland.ie', init)
   }
 
   setInterval(nudge, 3600);

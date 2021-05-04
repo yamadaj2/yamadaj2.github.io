@@ -39,17 +39,6 @@
     })
   }
 
-  const nudge = () => {
-    const init = {
-      method: 'GET',
-      mode : 'no-cors',
-    }
-
-    fetch('https://elais-ireland.herokuapp.com', init)
-    fetch('http://elais-ireland.ie', init)
-  }
-
-  setInterval(nudge, 3600);
   listenForLinkClick();
   listingForProfileLoad();
 })()

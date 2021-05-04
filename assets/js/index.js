@@ -46,7 +46,7 @@
     }
 
     fetch('https://elais-ireland.herokuapp.com', init)
-    fetch('https://elais-ireland.ie', init)
+    fetch('http://elais-ireland.ie', init)
   }
 
   setInterval(nudge, 3600);

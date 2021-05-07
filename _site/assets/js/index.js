@@ -40,17 +40,16 @@
   }
 
   const nudge = () => {
-    const init = {
-      method: 'GET',
-      mode : 'no-cors',
+    const hour = new Date().getHours();
+    if (hour > 7 && hour < 23) {
+      fetch('https://elais-ireland.herokuapp.com', {
+        method: 'GET',
+        mode : 'no-cors',
+      })
     }
-
-    console.log('%c -------------------------','background-color: white; color: black')
-    fetch('https://elais-ireland.herokuapp.com', init)
-    fetch('http://elais-ireland.ie', init)
   }
 
-  setInterval(nudge, 3600);
+  setInterval(nudge, 15 * 60000);
   listenForLinkClick();
   listingForProfileLoad();
 })()

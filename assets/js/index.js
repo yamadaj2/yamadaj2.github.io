@@ -50,6 +50,14 @@
         method: 'GET',
         mode : 'no-cors',
       })
+      fetch('http://elais-ireland.ie', {
+        method: 'GET',
+        mode : 'no-cors',
+      })
+      fetch('http://www.elais-ireland.ie', {
+        method: 'GET',
+        mode : 'no-cors',
+      })
     }
   }
 

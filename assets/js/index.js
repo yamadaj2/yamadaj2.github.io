@@ -46,6 +46,10 @@
         method: 'GET',
         mode : 'no-cors',
       })
+      fetch('www.elais-ireland.ie', {
+        method: 'GET',
+        mode : 'no-cors',
+      })
     }
   }
 

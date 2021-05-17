@@ -30,5 +30,5 @@
 
 - text: Buy me a Coffee and support my work?
   icon: 'coffee'
-  id: 'paypal'
-  url: 'https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=3F3C24AGF7CFU&currency_code=EUR'
+  id: 'revolut'
+  url: 'https://revolut.me/hirokilgw'

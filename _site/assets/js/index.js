@@ -42,7 +42,7 @@
   const nudge = () => {
     const hour = new Date().getHours();
     if (hour > 7 && hour < 23) {
-      fetch('https://elais-ireland.herokuapp.com', {
+      fetch('https://elais-ireland.herokuapp.com/contact', {
         method: 'GET',
         mode : 'no-cors',
       })
